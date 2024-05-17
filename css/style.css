@@ -1,0 +1,59 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../png/pozadi.png');
+    background-size: cover;
+}
+
+h1 {
+    margin: 20px;
+    background-color: #3f94e9;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    background-color: #cde2f7;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #749fce;
+}
+
+.navbar {
+    color: #1664b1;
+    margin-left: 38%;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #5688b9;
+    background-color: aliceblue;
+}
+
+.navbar-toggler {
+    border-color: #343a40;
+}
+
+.navbar-toggler-icon {
+    background-color: #000000;
+}
+
+.photo {
+    height: 150px;
+    width: 200px;
+    border-radius: 0;
+    object-fit: cover;
+}
+footer{
+    background-color: #cde2f7;
+}
